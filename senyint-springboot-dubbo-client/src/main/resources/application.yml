@@ -1,0 +1,10 @@
+server:
+  port: 8060
+## Dubbo 
+spring: 
+  dubbo: 
+    application: 
+      name: senyint-springboot-dubbo-consumer
+    registry: 
+      address: zookeeper://172.16.140.91:2181
+    scan: com.senyint.dubbo.controller
